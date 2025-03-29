@@ -1,0 +1,165 @@
+/* Comentarios */
+/* Estilopara el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3de68;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: rgb(168, 136, 76);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el menú */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(202, 78, 78);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para la seccion */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* Estilo para el artículo */
+article {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007BFF;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-top: 20px;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para la imagen */
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo para el video */
+video {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo para el aside */
+aside {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Estilo para las listas */
+ul {
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+/* Clase de ejemplo para un botón destacado */
+.btn-destacado {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-destacado:hover {
+    background-color: #218838;
+}
+
+/* Estilo para elementos con id específico */
+#home {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo para el formulario de contacto */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
